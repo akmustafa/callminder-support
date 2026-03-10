@@ -1,0 +1,222 @@
+diff --git a//Users/mustafa/Documents/Projelerim/KotlinMultiPlatform/CallReminder/support-site/marketing.html b//Users/mustafa/Documents/Projelerim/KotlinMultiPlatform/CallReminder/support-site/marketing.html
+new file mode 100644
+--- /dev/null
++++ b//Users/mustafa/Documents/Projelerim/KotlinMultiPlatform/CallReminder/support-site/marketing.html
+@@ -0,0 +1,217 @@
++<!doctype html>
++<html lang="en">
++
++<head>
++  <meta charset="utf-8" />
++  <meta name="viewport" content="width=device-width, initial-scale=1" />
++  <title>CallMinder</title>
++  <meta name="description"
++    content="CallMinder helps you stay on top of important follow-ups with reminders for calls, video calls, messages, and emails." />
++  <style>
++    :root {
++      --bg: #f6f8fb;
++      --card: #ffffff;
++      --text: #0f172a;
++      --muted: #475569;
++      --accent: #0f766e;
++      --accent-strong: #115e59;
++      --line: #dbe3ef;
++      --hero: linear-gradient(135deg, #dff7f1 0%, #eef4ff 100%);
++    }
++
++    * {
++      box-sizing: border-box;
++    }
++
++    body {
++      margin: 0;
++      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
++      background: linear-gradient(180deg, #edf3ff 0%, var(--bg) 100%);
++      color: var(--text);
++      line-height: 1.6;
++    }
++
++    .wrap {
++      max-width: 980px;
++      margin: 0 auto;
++      padding: 32px 18px 64px;
++    }
++
++    .hero,
++    .card {
++      background: var(--card);
++      border: 1px solid var(--line);
++      border-radius: 18px;
++      box-shadow: 0 10px 32px rgba(15, 23, 42, 0.06);
++    }
++
++    .hero {
++      background: var(--hero);
++      padding: 28px;
++    }
++
++    .eyebrow {
++      margin: 0 0 10px;
++      color: var(--accent-strong);
++      font-size: 14px;
++      font-weight: 700;
++      letter-spacing: 0.04em;
++      text-transform: uppercase;
++    }
++
++    h1 {
++      margin: 0 0 12px;
++      font-size: 38px;
++      line-height: 1.15;
++    }
++
++    h2 {
++      margin: 0 0 10px;
++      font-size: 22px;
++    }
++
++    p,
++    li {
++      color: var(--muted);
++    }
++
++    a {
++      color: var(--accent);
++      text-decoration: none;
++    }
++
++    a:hover {
++      text-decoration: underline;
++    }
++
++    .lede {
++      max-width: 720px;
++      margin: 0;
++      font-size: 18px;
++    }
++
++    .cta-row {
++      display: flex;
++      flex-wrap: wrap;
++      gap: 12px;
++      margin-top: 22px;
++    }
++
++    .btn {
++      display: inline-flex;
++      align-items: center;
++      justify-content: center;
++      min-height: 44px;
++      padding: 0 18px;
++      border-radius: 999px;
++      border: 1px solid var(--accent);
++      color: #ffffff;
++      background: var(--accent);
++      font-weight: 600;
++    }
++
++    .btn.secondary {
++      background: rgba(255, 255, 255, 0.75);
++      color: var(--accent-strong);
++      border-color: rgba(15, 118, 110, 0.2);
++    }
++
++    .grid {
++      display: grid;
++      grid-template-columns: repeat(2, minmax(0, 1fr));
++      gap: 18px;
++      margin-top: 18px;
++    }
++
++    .card {
++      padding: 22px;
++    }
++
++    .list {
++      margin: 0;
++      padding-left: 18px;
++    }
++
++    .muted {
++      font-size: 14px;
++      color: #64748b;
++    }
++
++    .footer-links {
++      margin-top: 18px;
++      padding-top: 14px;
++      border-top: 1px solid var(--line);
++    }
++
++    @media (max-width: 720px) {
++      h1 {
++        font-size: 30px;
++      }
++
++      .lede {
++        font-size: 17px;
++      }
++
++      .grid {
++        grid-template-columns: 1fr;
++      }
++    }
++  </style>
++</head>
++
++<body>
++  <main class="wrap">
++    <section class="hero">
++      <p class="eyebrow">CallMinder</p>
++      <h1>Remember. Call. Stay connected.</h1>
++      <p class="lede">
++        CallMinder helps you stay on top of important follow-ups with smart reminders for calls,
++        video calls, messages, and emails.
++      </p>
++      <div class="cta-row">
++        <a class="btn" href="./index.html">Support</a>
++        <a class="btn secondary" href="./privacy.html">Privacy Policy</a>
++      </div>
++    </section>
++
++    <section class="grid">
++      <article class="card">
++        <h2>What you can do</h2>
++        <ul class="list">
++          <li>Create reminders for voice calls, video calls, messages, and emails.</li>
++          <li>Use flexible schedules: one-time, every X hours, daily, weekly, monthly, and yearly.</li>
++          <li>Snooze quickly when timing changes.</li>
++          <li>Choose default apps for calling, video calling, and messaging.</li>
++        </ul>
++      </article>
++
++      <article class="card">
++        <h2>Stay in control</h2>
++        <ul class="list">
++          <li>Track what is scheduled, pending, and completed.</li>
++          <li>Pick contacts faster from your address book.</li>
++          <li>Follow snoozed reminders with Live Activities on supported devices.</li>
++          <li>Sync with iCloud and move data with backup export and import.</li>
++        </ul>
++      </article>
++    </section>
++
++    <section class="card" style="margin-top: 18px;">
++      <h2>Built for real follow-ups</h2>
++      <p>
++        Whether it is a quick family call, a client follow-up, or recurring outreach,
++        CallMinder gives you a clear next step when it matters.
++      </p>
++      <p class="muted">Marketing URL for App Store Connect</p>
++      <p><a href="https://akmustafa.github.io/callminder-support/marketing.html">https://akmustafa.github.io/callminder-support/marketing.html</a></p>
++
++      <div class="footer-links">
++        <a href="./index.html">Support Page</a>
++        &nbsp;•&nbsp;
++        <a href="./privacy.html">Privacy Policy</a>
++      </div>
++    </section>
++  </main>
++</body>
++
++</html>
